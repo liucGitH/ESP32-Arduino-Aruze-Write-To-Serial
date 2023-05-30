@@ -8,6 +8,7 @@ However, it should be like this:
 The cpp file inherit <HTTPClient.h> library, adding a new method "cacheWriteSerial()" which directly write data in cache to Serial port without saving it to memory as a string or a list. An example is included in this repository.
 
 ATTENTION:
+
 1.You should install the library <HTTPClient.h> before running this library.
 
 2.You should include "HTTPClient_custom.cpp" in your ino file and use "HTTPClient_Custom http;" to build a HTTPClient_Custom object named http.
