@@ -9,5 +9,7 @@ The cpp file inherit <HTTPClient.h> library, adding a new method "cacheWriteSeri
 
 ATTENTION:
 1.You should install the library <HTTPClient.h> before running this library.
-2.You should include "HTTPClient_custom.cpp" in your ino file and use "HTTPClient_Custom http;" to build a HTTPClient_Custom object named http. 
+
+2.You should include "HTTPClient_custom.cpp" in your ino file and use "HTTPClient_Custom http;" to build a HTTPClient_Custom object named http.
+
 3.Remenber to replace all the "\*" in the ino file.
