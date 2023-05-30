@@ -6,3 +6,6 @@ However, it should be like this:
 ![image](https://github.com/liucGitH/ESP32-Arduino-Aruze-Write-To-Serial/assets/77263346/ad40b5e6-52e2-4210-bae6-6ec92b1a34b8)
 
 The cpp file inherit <HTTPClient.h> library, adding a new method "cacheWriteSerial()" which directly write data in cache to Serial port without saving it to memory as a string or a list. An example is included in this repository.
+
+ATTENTION:
+You should include "HTTPClient_custom.cpp" in your ino file and use "HTTPClient_Custom http;" to build a HTTPClient_Custom object named http. 
